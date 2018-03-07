@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ammson.snyw.CameraUpload">
+
+<ImageView
+    android:id="@+id/priview"
+    android:layout_width="fill_parent"
+    android:layout_height="270sp"
+    android:padding="5dp"
+    android:background="#000000"
+    />
+<Button
+    android:id="@+id/btncamera"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/priview"
+    android:text="take photo"/>
+
+    <EditText
+        android:id="@+id/imagname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btncamera"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/uploadbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagname"
+        android:text="Upload"
+        />
+
+
+</RelativeLayout>

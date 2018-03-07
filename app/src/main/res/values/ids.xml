@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imageView" type="id">12</item>
+    <item name="editTextImageName" type="id">13</item>
+    <item name="buttonSelect" type="id">14</item>
+    <item name="buttonUpload" type="id">15</item>
+</resources>

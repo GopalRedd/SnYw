@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.ammson.snyw.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/snyw_icon" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="31dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="19dp"
+        android:background="@color/white"
+        android:hint="@string/hint_password"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:inputType="textPassword"/>
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="27dp"
+        android:background="@color/btn_login_bg"
+        android:text="@string/btn_login"
+        android:textColor="@color/btn_login"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/noacc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnLogin"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="Don't have account!! Register now"
+        android:textColor="#000000"
+        />
+
+
+
+
+
+</RelativeLayout>
